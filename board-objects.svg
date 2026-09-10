@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" fill="none">
+  <defs>
+    <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#fff4c5"/><stop offset="1" stop-color="#d9b75f"/></linearGradient>
+    <linearGradient id="cyan" x2="1" y2="1"><stop stop-color="#e7faf9"/><stop offset="1" stop-color="#75bbc5"/></linearGradient>
+    <linearGradient id="red" x2="1" y2="1"><stop stop-color="#f4b7b5"/><stop offset="1" stop-color="#cc7f85"/></linearGradient>
+    <g id="house" stroke-linejoin="round">
+      <path d="M-5 59 37 81 77 58 35 37Z" fill="#82928b" opacity=".25"/>
+      <path d="M0 18 37 37 37 73 0 54Z" fill="#e4e9df"/>
+      <path d="M37 37 54 6 72 18 72 53 37 73Z" fill="#b9c9c6"/>
+      <path d="M-5 20 15-15 56 5 36 41Z" fill="#657785"/>
+      <path d="M15-15 56 5 76 22 72 25 54 10 37 41 33 39 52 7Z" fill="#8e9da8"/>
+      <path d="M-5 20 36 41 37 37 0 18Z" fill="#f7f5e9"/>
+      <g fill="#b5dbe0" stroke="#fffdf1" stroke-width="1.7">
+        <path d="M6 29 18 35 18 49 6 43Z"/>
+        <path d="M23 38 32 42 32 56 23 52Z"/>
+        <path d="M43 43 50 39 50 53 43 57Z"/>
+        <ellipse cx="55" cy="24" rx="4" ry="6" transform="rotate(18 55 24)"/>
+      </g>
+      <path d="m12 32 0 14m-6-10 12 6m9-2v14m-4-9 9 4m23-31v12m-4-6h8" stroke="#fafff8" stroke-width="1"/>
+      <path d="M57 60V44q0-9 6-10 6-1 6 7v12Z" fill="#d6ad79" stroke="#f5eedc" stroke-width="1.5"/>
+      <circle cx="66" cy="46" r="1" fill="#816d4c"/>
+      <path d="m53 63 15-8 5 3-15 9Zm2 5 16-9 4 3-16 9Z" fill="#d1d4c7"/>
+      <path d="M0 54 37 73 37 78 0 59ZM37 73 53 64v5l-16 9Z" fill="#aaa99b"/>
+      <g fill="#78a290"><ellipse cx="49" cy="65" rx="4" ry="6"/><ellipse cx="74" cy="54" rx="3" ry="5"/></g>
+    </g>
+    <g id="hotel" stroke-linejoin="round">
+      <path d="M-5 94 44 119 83 96 35 72Z" fill="#82928b" opacity=".25"/>
+      <path d="M0 0 43 21 43 111 0 90Z" fill="#ecebdf"/>
+      <path d="M43 21 77 1 77 91 43 111Z" fill="#d2d6ca"/>
+      <path d="M-3-2 33-23 80 0 43 23Z" fill="#faf6e8"/>
+      <path d="M4-2 33-18 71 1 43 17Z" fill="#b5c6c5"/>
+      <path d="M-3-2 43 21 80 0v5L43 27-3 3Z" fill="#e2dfcc"/>
+      <g transform="matrix(1 .488 0 1 0 5)">
+        <g transform="translate(5 7)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(18 7)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(31 7)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(5 27)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(18 27)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(31 27)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(5 47)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(18 47)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(31 47)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g>
+        <path d="M0 66h43M0 69h43" stroke="#fffdf4" stroke-width="2"/>
+        <g fill="#9dbec2" stroke="#fdfbf0" stroke-width="1.5"><path d="M4 73h10v16H4ZM18 73h9v16h-9ZM31 73h9v16h-9Z"/></g>
+        <text x="21" y="-10" text-anchor="middle" font-family="Georgia,serif" font-size="8" font-weight="bold" fill="#65777a">HOTEL</text>
+      </g>
+      <g transform="matrix(1 -.588 0 1 43 26)">
+        <g transform="translate(5 7)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(19 7)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(5 27)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(19 27)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(5 47)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g><g transform="translate(19 47)"><rect width="7" height="12" rx=".5" fill="#91b8c1" stroke="#fffdf3" stroke-width="1.3"/><path d="M3.5 0v12M0 5h7" stroke="#e8f1ea" stroke-width=".6"/><path d="M-1 13h9" stroke="#9eaaa5" stroke-width="1.4"/></g>
+        <path d="M0 66h34M0 69h34" stroke="#f6f2e5" stroke-width="2"/>
+        <path d="M9 73h15v17H9Z" fill="#789fa7" stroke="#f7f2e4" stroke-width="2"/>
+        <path d="M16.5 73v17" stroke="#e8e6d6"/>
+      </g>
+      <path d="m48 93 25-14 8 5-25 15Z" fill="#c6b581" stroke="#a89c77" stroke-width="1"/>
+      <path d="m56 99 25-15v3l-25 15Z" fill="#ac9c70"/>
+      <path d="M56 101v10M79 88v10" stroke="#a6aba1" stroke-width="1.6"/>
+      <path d="m50 112 26-15 5 3-26 15Z" fill="#bfc6ba"/>
+      <g fill="#88a38a"><ellipse cx="49" cy="107" rx="2.8" ry="4"/><ellipse cx="78" cy="95" rx="2.8" ry="4"/></g>
+    </g>
+
+    <linearGradient id="home-note" x2="1" y2="1"><stop stop-color="#d8edcf"/><stop offset="1" stop-color="#81b9a0"/></linearGradient>
+    <linearGradient id="home-coin" x2="1" y2="1"><stop stop-color="#fff1be"/><stop offset="1" stop-color="#c9af70"/></linearGradient>
+    <g id="home-bill" stroke="#648c80" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M0 12Q45-5 108 6L116 62Q55 50 8 70Z" fill="url(#home-note)"/>
+      <path d="M13 21Q51 10 96 16L101 49Q55 43 20 56Z" stroke="#eff8e5"/>
+      <ellipse cx="57" cy="34" rx="16" ry="18" transform="rotate(-8 57 34)" fill="#ecf3d4"/>
+      <path d="m58 23-8 11 12-2-8 12" stroke="#719d88"/>
+      <path d="m24 28 8-2m50 15 8 1"/>
+    </g>
+    <g id="home-token" stroke="#ac975f" stroke-width="2">
+      <path d="M-39 0v10c0 23 78 23 78 0V0" fill="#d1b575"/>
+      <ellipse rx="39" ry="16" fill="url(#home-coin)"/>
+      <ellipse rx="29" ry="10" stroke="#fff4cd"/>
+      <path d="m-7 0 7-6 7 6-7 6Z" fill="#bda064" stroke="none"/>
+      <path d="M-29 12v5M-18 17v5M-6 19v5M7 19v5M20 16v5M31 11v5"/>
+    </g>
+    <g id="home-pouch" stroke="#9f8580" stroke-width="3" stroke-linejoin="round">
+      <path d="m-24-45-12-27 22 7 13-12 14 13 23-5-13 25" fill="#e2c4aa"/>
+      <path d="M-25-43C-35-19-65 8-63 40c3 34 118 37 125 0 6-31-26-62-36-83Z" fill="#e8c8b8"/>
+      <path d="M-23-37C-36-6-50 17-48 36" stroke="#f8e4d5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-29-44q29 9 59 0M-27-37q28 7 54 0" stroke="#80a39b" stroke-width="5"/>
+      <path d="M28-41q30-21 26 0-5 14-26 0 22 28 32 20" stroke="#80a39b" fill="none"/>
+      <circle cy="20" r="23" fill="#f4e7bb" stroke="#c6af78"/>
+      <path d="M7 7C-10 1-16 16 0 20s12 20-8 13M0 3v35" stroke="#9c9f79" stroke-width="4" stroke-linecap="round"/>
+    </g>
+    </defs>
+  <g opacity=".48">
+    <use href="#home-token" transform="translate(79 91) rotate(-18)"/>
+    <use href="#home-token" transform="translate(79 79) rotate(-18)"/>
+    <use href="#house" transform="translate(445 84) rotate(12)"/>
+    <use href="#hotel" transform="translate(39 260) rotate(-12)"/>
+    <use href="#home-bill" transform="translate(441 278) rotate(19)"/>
+    <use href="#home-bill" transform="translate(64 491) rotate(-13)"/>
+    <use href="#house" transform="translate(157 420) scale(.72) rotate(-16)"/>
+    <use href="#home-token" transform="translate(488 498) rotate(13)"/>
+    <use href="#home-token" transform="translate(488 486) rotate(13)"/>
+    <use href="#hotel" transform="translate(379 455) scale(.65) rotate(11)"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <defs>
+    <linearGradient id="note" x2="1" y2="1"><stop stop-color="#d8edcf"/><stop offset="1" stop-color="#81b9a0"/></linearGradient>
+    <linearGradient id="coin" x2="1" y2="1"><stop stop-color="#fff1be"/><stop offset="1" stop-color="#c9af70"/></linearGradient>
+    <g id="bill" stroke="#648c80" stroke-width="2.5" stroke-linejoin="round">
+      <path d="M0 12Q45-5 108 6L116 62Q55 50 8 70Z" fill="url(#note)"/>
+      <path d="M13 21Q51 10 96 16L101 49Q55 43 20 56Z" stroke="#eff8e5"/>
+      <ellipse cx="57" cy="34" rx="16" ry="18" transform="rotate(-8 57 34)" fill="#ecf3d4"/>
+      <path d="m58 23-8 11 12-2-8 12" stroke="#719d88"/>
+      <path d="m24 28 8-2m50 15 8 1"/>
+    </g>
+    <g id="token" stroke="#ac975f" stroke-width="2">
+      <path d="M-39 0v10c0 23 78 23 78 0V0" fill="#d1b575"/>
+      <ellipse rx="39" ry="16" fill="url(#coin)"/>
+      <ellipse rx="29" ry="10" stroke="#fff4cd"/>
+      <path d="m-7 0 7-6 7 6-7 6Z" fill="#bda064" stroke="none"/>
+      <path d="M-29 12v5M-18 17v5M-6 19v5M7 19v5M20 16v5M31 11v5"/>
+    </g>
+    <g id="pouch" stroke="#9f8580" stroke-width="3" stroke-linejoin="round">
+      <path d="m-24-45-12-27 22 7 13-12 14 13 23-5-13 25" fill="#e2c4aa"/>
+      <path d="M-25-43C-35-19-65 8-63 40c3 34 118 37 125 0 6-31-26-62-36-83Z" fill="#e8c8b8"/>
+      <path d="M-23-37C-36-6-50 17-48 36" stroke="#f8e4d5" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-29-44q29 9 59 0M-27-37q28 7 54 0" stroke="#80a39b" stroke-width="5"/>
+      <path d="M28-41q30-21 26 0-5 14-26 0 22 28 32 20" stroke="#80a39b" fill="none"/>
+      <circle cy="20" r="23" fill="#f4e7bb" stroke="#c6af78"/>
+      <path d="M7 7C-10 1-16 16 0 20s12 20-8 13M0 3v35" stroke="#9c9f79" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </defs>
+  <g opacity=".32">
+    <use href="#bill" transform="translate(95 125) rotate(-22) scale(1.3)"/>
+    <use href="#bill" transform="translate(935 118) rotate(24)"/>
+    <use href="#bill" transform="translate(1000 365) rotate(-16) scale(.8)"/>
+    <use href="#bill" transform="translate(90 550) rotate(12)"/>
+    <use href="#token" transform="translate(198 686)"/>
+    <use href="#token" transform="translate(198 672)"/>
+    <use href="#token" transform="translate(198 658)"/>
+    <use href="#token" transform="translate(272 701) scale(.8)"/>
+    <use href="#token" transform="translate(272 689) scale(.8)"/>
+    <use href="#pouch" transform="translate(994 658) rotate(8) scale(1.3)"/>
+    <use href="#token" transform="translate(883 709) rotate(-12)"/>
+    <use href="#token" transform="translate(110 359) rotate(-58) scale(.8)"/>
+    <use href="#token" transform="translate(1022 277) rotate(35) scale(.75)"/>
+  </g>
+</svg>

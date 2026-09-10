@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grand Circuit</title>
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="landing" class="setup">
+  <div class="landing-card">
+    <img class="home-mascot" src="cat-mascot-outline.png" width="260" height="260"
+      alt="A cat in glasses, a magician's hat, and a suit, with a curled white moustache">
+    <h1 class="home-title">GRAND<span>CIRCUIT</span></h1>
+    <form class="home-play" id="homePlay">
+      <label class="visually-hidden" for="homeName">Your player name</label>
+      <input id="homeName" name="playerName" maxlength="16" value="Player 1"
+        autocomplete="nickname" placeholder="Your name" aria-label="Your player name">
+      <button class="home-play-button" type="submit"><span aria-hidden="true">&#187;</span> Play</button>
+    </form>
+    <div class="home-secondary">
+      <button type="button" id="doorJoin">All rooms</button>
+      <button type="button" id="doorPrivate">Create a private game</button>
+    </div>
+    <button class="home-customize" type="button" id="doorCreate">Customize your table <span aria-hidden="true">&#8594;</span></button>
+    <div class="home-objects" aria-hidden="true"></div>
+  </div>
+</div>
+
+<div id="joinView" class="setup" hidden>
+  <div class="setup-card" id="joinCard"></div>
+</div>
+
+<div id="setup" class="setup" hidden>
+  <div class="setup-card">
+    <h1>Grand Circuit</h1>
+    <p class="setup-lede">Buy cities, corner a country, and charge for the privilege. Two to six seats at the table; fill any of them with the house.</p>
+    <div class="seats" id="seats"></div>
+
+    <h2 class="setup-head">Players from elsewhere</h2>
+    <div class="room" id="roomPanel"></div>
+
+    <h2 class="setup-head">Board map</h2>
+    <div class="maps" id="maps"></div>
+
+    <h2 class="setup-head">Gameplay rules</h2>
+    <div class="rules" id="rules"></div>
+
+    <div class="setup-row">
+      <button class="btn ghost" id="addSeat" type="button">Add seat</button>
+      <button class="btn ghost" id="dropSeat" type="button">Remove seat</button>
+      <button class="btn solid" id="startGame" type="button">Start the game</button>
+    </div>
+  </div>
+</div>
+
+<main id="app" class="app" hidden>
+
+  <section class="col col-left">
+    <header class="brand">
+      <span class="brand-mark"><img src="cat-mascot-outline.png" alt="" width="44" height="44"></span>
+      <div>
+        <h2>Grand Circuit</h2>
+        <p id="roundLabel">Round 1</p>
+      </div>
+    </header>
+
+    <div class="panel" id="roomBar" hidden>
+      <div class="panel-head"><h3>Room</h3><span class="room-count" id="roomCount"></span></div>
+      <div class="room-bar" id="roomBarBody"></div>
+    </div>
+
+    <div class="panel grow">
+      <div class="panel-head"><h3>Game log</h3></div>
+      <ol class="log" id="log" tabindex="0" aria-label="Game history"></ol>
+    </div>
+
+    <div class="panel chat-panel">
+      <div class="panel-head"><h3>Chat</h3></div>
+      <div class="chat-messages" id="chatMessages" role="log" aria-live="polite" aria-label="Chat messages"></div>
+      <form id="chatForm" class="chat-form">
+        <input id="chatInput" aria-label="Message" placeholder="Type a message…" maxlength="500" autocomplete="off">
+        <button type="submit" class="btn ghost">Send</button>
+      </form>
+    </div>
+
+  </section>
+
+  <section class="col col-board">
+    <div class="board" id="board"></div>
+  </section>
+
+  <section class="col col-right">
+    <div class="panel">
+      <div class="panel-head"><h3>Players</h3></div>
+      <ul class="players" id="players"></ul>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h3>Trades</h3>
+        <button class="btn solid" id="openTrade" type="button">Create</button>
+      </div>
+      <ul class="trades" id="trades"></ul>
+    </div>
+
+    <div class="panel grow">
+      <div class="panel-head">
+        <h3>Holdings &middot; <span id="holdingsWho"></span></h3>
+      </div>
+      <div class="holdings" id="holdings"></div>
+    </div>
+  </section>
+</main>
+
+<div class="modal" id="modal" hidden>
+  <div class="modal-card" id="modalCard"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="dice-renderer.js"></script>
+<script src="sound.js"></script>
+<script src="game.js"></script>
+<script src="net.js"></script>
+<script src="rooms.js"></script>
+</body>
+</html>
+

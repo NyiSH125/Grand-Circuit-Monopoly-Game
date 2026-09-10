@@ -1,0 +1,3 @@
+Edited with built-in image generation using cat-mascot-green.png.
+
+Edit this exact simple 2D cat mascot with ONLY two additions. Add a pair of clearly defined notched suit lapels/collars on the green jacket, using just a few simple black outline lines and flat green fills. Add one large readable green dollar sign ($) centered on the BLACK crown of the top hat above its existing green ribbon. Keep the ribbon green. Preserve face, moustache, glasses, black tie, white shirt, pose, proportions and sparse clean cartoon style. No extra detail, no 3D effects. Output transparent sticker PNG with genuine alpha zero outside the character, no background.

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Grand Circuit</title>
+  <rect width="64" height="64" rx="18" fill="#f8f7ed"/>
+  <!-- An open circuit suggests movement around the board. -->
+  <path d="M45 12H22c-7 0-10 4-10 11v19c0 7 4 10 11 10h19c7 0 10-4 10-11V29"
+    stroke="#356d70" stroke-width="5" stroke-linecap="round"/>
+  <path d="m40 7 6 5-6 5" stroke="#356d70" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- A compact property silhouette doubles as an upward arrow. -->
+  <path d="m21 32 11-10 11 10" stroke="#bf7e7a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 33v10h14V33" fill="#aad1c8"/>
+  <path d="M31 43v-8h4v8" fill="#f8f7ed"/>
+  <circle cx="52" cy="20" r="5" fill="#d9b964"/>
+</svg>
